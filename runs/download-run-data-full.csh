@@ -9,8 +9,8 @@ set found=`which wget |grep -v found |wc -l`
       goto exit
     else
       set cmd=`which curl`
-      $cmd https://www.dropbox.com/s/u5ap3yu7hpoyfrn/T70-dimer-full.tgz >T70-dimer-full.tgz
-      $cmd https://www.dropbox.com/s/ygg7l4l1xqms9gy/T70-tetramer-full.tgz >T70-tetramer-full.tgz
+      $cmd -L -O https://www.dropbox.com/s/u5ap3yu7hpoyfrn/T70-dimer-full.tgz
+      $cmd -L -O https://www.dropbox.com/s/ygg7l4l1xqms9gy/T70-tetramer-full.tgz
     endif
   else
     set cmd=`which wget`
