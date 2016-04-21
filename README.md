@@ -6,5 +6,7 @@ The tutorial is described on our web page at: [http://www.bonvinlab.org/educatio
 
 
 #Citation#
-This tutorial is citable. For this use the following DOI:
+This tutorial is citable. 
+
+For this use the following DOI:
 [![DOI](https://zenodo.org/badge/21589/haddocking/CASP-CAPRI-T70-tutorial.svg)](https://zenodo.org/badge/latestdoi/21589/haddocking/CASP-CAPRI-T70-tutorial)
