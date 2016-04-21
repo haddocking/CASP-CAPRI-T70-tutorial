@@ -4,3 +4,7 @@ This tutorial will demonstrate the use of HADDOCK for predicting target70 of the
 
 The tutorial is described on our web page at: [http://www.bonvinlab.org/education/HADDOCK-CASP-CAPRI-T70/](http://www.bonvinlab.org/education/HADDOCK-CASP-CAPRI-T70/)
 
+
+#Citation#
+This tutorial is citable. For this use the following DOI:
+[![DOI](https://zenodo.org/badge/21589/haddocking/CASP-CAPRI-T70-tutorial.svg)](https://zenodo.org/badge/latestdoi/21589/haddocking/CASP-CAPRI-T70-tutorial)
