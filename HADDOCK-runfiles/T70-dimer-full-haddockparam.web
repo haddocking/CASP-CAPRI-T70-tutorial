@@ -21,7 +21,7 @@ HaddockRunParameters (
   epsilon = 10.0,
   waterdock = False,
   clust_meth = 'FCC',
-  clust_rmsd = 0.75,
+  clust_rmsd = 0.6,
   clust_size = 4,
   fcc_ignc = False,
   ncs = SymmetrySpecification (
