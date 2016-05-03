@@ -1,7 +1,7 @@
 #!/bin/csh
 #
 setenv target complex
-setenv WDIR /Users/abonvin/capri/CASP-CAPRI/CASP-CAPRI-T70-tutorial/ana_scripts
+setenv WDIR `pwd`
 setenv refeAB $WDIR/30_70.2.AB.pdb 
 setenv refeAC $WDIR/30_70.2.AC.pdb 
 setenv refeAD $WDIR/30_70.2.AD.pdb 
