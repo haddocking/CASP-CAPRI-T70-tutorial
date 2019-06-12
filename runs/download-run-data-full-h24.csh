@@ -9,13 +9,13 @@ set found=`which wget |grep -v found |wc -l`
       goto exit
     else
       set cmd=`which curl`
-      $cmd -L https://surfdrive.surf.nl/files/index.php/s/t7wIYpuddJqhlFn/download > T70-dimer-full.tgz
-      $cmd -L https://surfdrive.surf.nl/files/index.php/s/NQe3VPuPF05iFVY/download > T70-tetramer-full.tgz
+      $cmd -L https://surfdrive.surf.nl/files/index.php/s/t7wIYpuddJqhlFn/download > T70-dimer-full-h24.tgz
+      $cmd -L https://surfdrive.surf.nl/files/index.php/s/NQe3VPuPF05iFVY/download > T70-tetramer-full-h24.tgz
     endif
   else
     set cmd=`which wget`
-    $cmd  https://surfdrive.surf.nl/files/index.php/s/t7wIYpuddJqhlFn/download -O T70-dimer-full.tgz
-    $cmd https://surfdrive.surf.nl/files/index.php/s/NQe3VPuPF05iFVY/download -O T70-tetramer-full.tgz
+    $cmd  https://surfdrive.surf.nl/files/index.php/s/t7wIYpuddJqhlFn/download -O T70-dimer-full-h24.tgz
+    $cmd https://surfdrive.surf.nl/files/index.php/s/NQe3VPuPF05iFVY/download -O T70-tetramer-full-h24.tgz
   endif
 endif
 
